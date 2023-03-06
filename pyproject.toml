@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "privat-parser"
+version = "0.1.0"
+description = ""
+authors = ["ZhannaBalieieva <thebestofthebestv@gmail.com>"]
+readme = "README.md"
+packages = [{include = "privat_parser"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+timedelta = "^2020.12.3"
+python-utils = "^3.5.2"
+utils = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
